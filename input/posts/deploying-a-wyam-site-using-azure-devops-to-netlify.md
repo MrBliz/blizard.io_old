@@ -1,5 +1,5 @@
 Title: Deploying a Wyam site to Netlify with Azure Devops.
-Published: 1/1/2018
+Published: 2018-12-29
 Tags: 
     - Netlify
     - Wyam
