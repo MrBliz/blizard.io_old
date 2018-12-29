@@ -7,23 +7,20 @@ Tags:
     - Azure 
 ---
 
-Netlify is a great tool for hosting static sites. For free, you can host a site that has a custom domain and HTTPS, and you don't have to worry about scaling it if you hit the front page of Hacker News. For a host of static site generators, Netlify can even generate your site for you. Simply push your code to a source code repository that Netlify supports, and Netlify will pick up the changes, generate, and deploy your site
+Netlify is a great tool for hosting static sites. For free, you can host a site that has a custom domain and HTTPS, and you don't have to worry about scaling it if you hit the front page of Hacker News. For a host of static site generators, Netlify can even generate your site for you. Simply push your code to a source code repository that Netlify supports, and Netlify will pick up the changes, generate, and deploy your site.
 
-Unfortunately at the moment, Netlify does not have dotnet available, and hence cannot generate a Wyam site. There are PR's open for that, and Netlify's CEO has indicated a willingness to support it
+Unfortunately at the moment, Netlify does not have dotnet available, and hence cannot generate a Wyam site, so until Netlify does support .NET Core, you will need to have a separate CI step to generate the site and then push a zip file to netlify.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Love that. Let us know how we can help out, been wanting to see Wyam builds on Netlify for a long time :)</p>&mdash; Matt Biilmann (@biilmann) <a href="https://twitter.com/biilmann/status/1066511158587219968?ref_src=twsrc%5Etfw">November 25, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-
- For the time being however, you will need to have a separate CI step to generate the site and then push a zip file to netlify.
+The steps that we'll follow for this process are.
 
 * Create Wyam Site
 * Publish to Github
-* Create Netflify Api Key
+* Create Netlify Api Key and Site ID
 * Set Up Build Pipeline to create a zip file of generated site
 * Push site to netlify.
 * Repeat for staging
 
-
+Assuming you have already got dotnet core installed, and installed the wyam global tool using `dotnet tool install -g Wyam.Tool`, do the following.
 
 `mkdir wyamblog`
 

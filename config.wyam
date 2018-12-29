@@ -1,5 +1,4 @@
 #recipe Blog
-#theme Trophy
 
 // Customize your settings and add new ones here
 Settings[Keys.Host] = "Blizard.IO";
