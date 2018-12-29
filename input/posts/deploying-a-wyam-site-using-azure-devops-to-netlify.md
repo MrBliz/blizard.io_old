@@ -7,7 +7,7 @@ Tags:
     - Azure 
 ---
 
-Netlify is a great tool for hosting static sites. For free, you can host a site that has a custom domain and HTTPS, and you don't have to worry about scaling it if you hit the front page of Hacker News. For a host of static site generators, Netlify can even generate your site for you. Simple push to a source code repository that Netlify supports, and Netlify will pick up the changes, generate, and deploy your site
+Netlify is a great tool for hosting static sites. For free, you can host a site that has a custom domain and HTTPS, and you don't have to worry about scaling it if you hit the front page of Hacker News. For a host of static site generators, Netlify can even generate your site for you. Simply push your code to a source code repository that Netlify supports, and Netlify will pick up the changes, generate, and deploy your site
 
 Unfortunately at the moment, Netlify does not have dotnet available, and hence cannot generate a Wyam site. There are PR's open for that, and Netlify's CEO has indicated a willingness to support it
 
@@ -50,9 +50,7 @@ I'm going to install the Azure Pipelines app to github, and give it access to th
 
 Choose the starter pipeline template and replace the code in the template with the below snippet.
 
- ```trigger:
-- $(branch)
-
+ ```
 trigger:
 - master
 

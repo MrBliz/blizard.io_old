@@ -1,8 +1,9 @@
 #recipe Blog
+#theme Trophy
 
 // Customize your settings and add new ones here
-Settings[Keys.Host] = "host.com";
-Settings[BlogKeys.Title] = "My Blog";
-Settings[BlogKeys.Description] = "Welcome!";
+Settings[Keys.Host] = "Blizard.IO";
+Settings[BlogKeys.Title] = "Blizard.IO";
+Settings[BlogKeys.Description] = "The tech blog of Liam Blizard.";
 
 // Add any pipeline customizations here
