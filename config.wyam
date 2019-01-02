@@ -1,4 +1,5 @@
-#recipe Blog
+#r blog
+#t Phantom
 
 // Customize your settings and add new ones here
 Settings[Keys.Host] = "Blizard.IO";
