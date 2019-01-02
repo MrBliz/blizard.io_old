@@ -7,3 +7,4 @@ nuget.exe
 /*.packages.xml
 /*.wyam.hash
 /*.wyam.dll
+input/images/.DS_Store

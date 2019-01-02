@@ -104,10 +104,11 @@ This will do the following
 
 If we save that script and run it. It will fail, as there are two variables in the script that Azure Devops cannot find
 
-$(netlifyAccessToken)
-$(netlifySiteId)
+`$(netlifyAccessToken)`
 
-We have already created the access token, but we need a site id. Navigate to `https://app.netlify.com/account/sites' and that should show you a list of sites in your Netlify account.
+`$(netlifySiteId)`
+
+We have already created the access token, but we need a site id. Navigate to `https://app.netlify.com/account/sites` and that should show you a list of sites in your Netlify account.
 
 Netlify allows you to create sites from a GIT repo, but it also allows you to create a site by dragging and dropping a bunch of files too. If you drag the output folder onto the drop zone it will instantly create a site for us. You can verify that the site works, but what we are most interested in is the site ID. Navigate to the site Settings tab, and copy the API ID and save it somewhere.
 
@@ -127,9 +128,9 @@ Create a new site in Netlify by dragging and dropping again, and copy down the n
 
 From the menu on the right, select 'clone' and give the cloned pipeline a new name. I added the name of the branch on the end of mine.
 
-If you click on the first step of the pipeline. If you haven't renamed it, it will probably be called 'Get Sources'. We need to change the branch that the build will get it's changes from to staging.
+If you click on the first step of the pipeline. If you haven't renamed it, it will probably be called 'Get Sources'. We need to change the branch that the build will get its changes from to staging.
 
-Next click on the variables tab, and change the netlifySiteId variable to the new API ID for your staging site. 
+Next click on the variables tab, and change the `netlifySiteId` variable to the new API ID for your staging site. 
 
 Save and Queue a build, and you should see your new changes propagated. 
 
