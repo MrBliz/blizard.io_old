@@ -1,8 +1,8 @@
 Title: About Me
 ---
-I'm Liam, a software developer available for contract hire based in London. I used to be a pub landlord, but then rediscovered a childhood love of tinkering with computers and retrained as a developer in my late 20's. I have over 10 years experience working in the field. Experienced in .NET, Azure.
+I'm Liam, a software developer available for contract hire based in London. I used to be a pub landlord, but then rediscovered a childhood love of tinkering with computers and retrained as a developer in my late 20's. I have over 10 years experience working in the field.
 
-When not developing i like hiking, travelling, Board Games, Snowboarding & Photography. 
+When not developing i like hiking, travelling, board games, snowboarding & photography. 
 
 <style>
     #client-list
@@ -37,13 +37,13 @@ When not developing i like hiking, travelling, Board Games, Snowboarding & Photo
     }
 </style>
 
-# Clients I Have worked with
+## Clients I have worked with
 
 <div id="client-list">
     <div class="client"><img src="images/site/just-eat.png"/></div>
     <div class="client"><img src="images/site/allen-overy.jpg"/></div>
     <div class="client"><img src="images/site/nfiniti.png"/></div>
-    <div class="client"><a target="_blank" href="https://www.clear.bank"><img src="images/site/clearbank.png"/></a></div>
+    <div class="client"><img src="images/site/clearbank.png"/></div>
     <div class="client"><img src="images/site/globecast.png"/></div>
     <div class="client"><img src="images/site/hcml.png"/></div>
     <div class="client"><img src="images/site/spafax.png"/></div>
