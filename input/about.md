@@ -1,8 +1,10 @@
 Title: About Me
 ---
-I'm Liam, a software developer available for contract hire based in London. I used to be a pub landlord, but then rediscovered a childhood love of tinkering with computers and retrained as a developer in my late 20's. I have over 10 years experience working in the field.
+I'm Liam Blizard, a software developer available for contract hire based in London. I used to be a pub landlord, but then rediscovered a childhood love of tinkering with computers and retrained as a developer in my late 20's. I have over 10 years experience working in the field.
 
-When not developing i like hiking, travelling, board games, snowboarding & photography. 
+I mostly work with cloud technologies these days and having ample experience with Azure, and a bit of experience with AWS. If your project involves working with image processing and/or mapping, I'd love to talk!
+
+When not developing I like hiking, travelling, board games, snowboarding & photography. 
 
 <style>
     #client-list
@@ -34,21 +36,22 @@ When not developing i like hiking, travelling, board games, snowboarding & photo
     .client a
     {
         text-decoration : none;
+        border-bottom: none;
     }
 </style>
 
 ## Clients I have worked with
 
 <div id="client-list">
-    <div class="client"><img src="images/site/just-eat.png"/></div>
-    <div class="client"><img src="images/site/allen-overy.jpg"/></div>
-    <div class="client"><img src="images/site/nfiniti.png"/></div>
-    <div class="client"><img src="images/site/clearbank.png"/></div>
-    <div class="client"><img src="images/site/globecast.png"/></div>
-    <div class="client"><img src="images/site/hcml.png"/></div>
-    <div class="client"><img src="images/site/spafax.png"/></div>
-    <div class="client"><img src="images/site/disney.png"/></div>
-    <div class="client"><img src="images/site/itg.png"/></div>
-    <div class="client"><img src="images/site/btp.jpg"/></div>
+    <div class="client"><a href="https://www.just-eat.co.uk"><img src="images/site/just-eat.png"/></a></div>
+    <div class="client"><a href="http://www.allenovery.com"><img src="images/site/allen-overy.jpg"/></a></div>
+    <div class="client"><a href="http://www.nfiniti.co"><img src="images/site/nfiniti.png"/></a></div>
+    <div class="client"><a href="https://www.clear.bank"><img src="images/site/clearbank.png"/></a></div>
+    <div class="client"><a href="https://www.clear.bank"><img src="images/site/globecast.png"/></a></div>
+    <div class="client"><a href="https://hcml.co.uk"><img src="images/site/hcml.png"/></a></div>
+    <div class="client"><a href="https://www.spafax.com"><img src="images/site/spafax.png"/></a></div>
+    <div class="client"><a href="https://disney.co.uk"><img src="images/site/disney.png"/></a></div>
+    <div class="client"><a href="https://www.itg.co.uk"><img src="images/site/itg.png"/></a></div>
+    <div class="client"><a href="http://www.btp.police.uk"><img src="images/site/btp.jpg"/></a></div>
 </div>
 
