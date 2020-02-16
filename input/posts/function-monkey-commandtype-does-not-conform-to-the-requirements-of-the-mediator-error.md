@@ -59,7 +59,7 @@ And my EditLocationCommand
 
 You can probably see why I was stumped, the handler and command implement the very same interfaces the error was telling me I should implement. 
 
-After a going down the usual rabbit hole which usually ends in me questioning why I'm even a software developer in the first place, I eventually realised the problem was in the Function Configuration file when I'd registered the commands.
+After going down the usual rabbit hole which usually ends in me questioning why I'm even a software developer in the first place, I eventually realised the problem was in the Function Configuration file where I'd registered the commands.
 
 
 ```
