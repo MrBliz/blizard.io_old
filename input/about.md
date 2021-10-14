@@ -1,8 +1,9 @@
 Title: About Me
 ---
-I'm Liam Blizard, a software developer available for contract hire based in London. I used to be a pub landlord, but then rediscovered a childhood love of tinkering with computers and retrained as a developer in my late 20's. I've being doing this stuff since 2008
+I'm Liam Blizard, a software developer available for remote only contract hire. I used to be a pub landlord, but then rediscovered a childhood love of tinkering with computers and retrained as a developer in my late 20's. I've being doing this stuff since 2008
 
 I mostly work with cloud technologies these days and having ample experience with Azure, and a bit of experience with AWS. If your project involves working with image processing and/or mapping, I'd love to talk!
+
 
 When not developing I like hiking, travelling, board games, snowboarding & photography. 
 
