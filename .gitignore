@@ -7,4 +7,6 @@ nuget.exe
 /*.packages.xml
 /*.wyam.hash
 /*.wyam.dll
-*.DS_Store
+/.DS_Store
+.obsidian
+.DS_Store
